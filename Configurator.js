@@ -4,7 +4,7 @@ import {LogChannels} from "./LogChannels.js";
 import yaml from "./_snowpack/pkg/js-yaml.js";
 import "./Configurator.css.proxy.js";
 export function Configurator() {
-  const [prefix, setPrefix] = useState("!");
+  const [prefix, setPrefix] = useState("");
   const [levels, setLevels] = useState([]);
   const [withModCommands, setWithModCommands] = useState(false);
   const [muteRoleId, setMuteRoleId] = useState("");
