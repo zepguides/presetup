@@ -17,7 +17,7 @@ export function Configurator() {
     const resultObj = {
       prefix,
       levels: levels.reduce((obj, entry) => {
-        obj[entry[0]] = entry[1];
+        obj[entry["0"]] = entry["1"];
         return obj;
       }, {}),
       plugins: {
