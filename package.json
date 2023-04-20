@@ -4,7 +4,7 @@
   "scripts": {
     "watch": "snowpack dev",
     "build": "snowpack build",
-    "nojekyll": "echo >> build/.nojekyll"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@snowpack/plugin-typescript": "^1.2.1",
